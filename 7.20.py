@@ -1,3 +1,5 @@
+from sqlalchemy import false
+
 a = "abcd"
 
 print("the letter is : %s" %a)
@@ -33,3 +35,14 @@ i = input("加法计算器：依次输入两个 \n第一个：")
 j = input("第二个：")
 
 print(i,"+",j,"=",  eval(i) + eval(j))
+
+print("-------------------")
+
+k = True
+l = False
+
+print(k and l)
+print(k or l)
+print(not k , not l)
+
+print("-------------------------")
