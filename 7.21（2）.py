@@ -46,7 +46,7 @@ if a == '2':
 
 
 else:
-    print("输入错误"
+    print("输入错误")
 
 
 
