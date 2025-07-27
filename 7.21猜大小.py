@@ -3,7 +3,13 @@ b = random.randint(1,100)
 c = False
 e = 0
 while not c:
-    a = eval(input("输入数字:>>"))
+    a = (input("输入数字:>>"))
+    n=a.isdecimal()
+    if n==False:
+        print("请输入数字")
+        continue
+    else:
+        a=eval(a)
     if a == b:
         print("猜对了")
         c = True
